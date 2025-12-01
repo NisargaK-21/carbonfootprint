@@ -1,0 +1,397 @@
+"use client";
+
+export default function GroupsPage() {
+  return (
+    <div>
+
+      {/* TOP HEADING */}
+      <div className="bg-[#2D6A4F] w-full pt-6 pb-6 flex justify-center items-start">
+        <h1 className="text-4xl font-bold text-white text-center font-poppins">
+          🌿🍃 Join Eco Communities
+        </h1>
+      </div>
+
+      {/* GRID */}
+      <div className="grid grid-cols-2 gap-6 p-5">
+
+        {/* LEFT COLUMN */}
+        <div className="flex flex-col gap-6">
+
+          {/* Zero Waste Team */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-green-100 to-green-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-green-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/recycle.png" className="w-36 h-36 animate-wiggle" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-green-900 font-poppins">
+                Zero Waste Team
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Reduce waste, recycle smarter, and live cleaner.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Plant Squad */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-green-100 to-green-300
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-green-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/tree.png" className="w-36 h-36 animate-float" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-green-900 font-poppins">
+                Plant Squad
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Grow plants, green your surroundings, spread nature.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Walk More Club */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-green-100 to-green-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-green-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/foot.png" className="w-36 h-36 animate-wiggle" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-green-900 font-poppins">
+                Walk More Club
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Take steps for your health and a cleaner planet.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        {/* SECOND COLUMN */}
+        <div className="flex flex-col gap-6">
+
+          {/* Public Transport Heroes */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-blue-100 to-blue-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-blue-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/bus.png" className="w-36 h-36 animate-float" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-blue-900 font-poppins">
+                Public Transport Heroes
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Choose buses and metros to reduce pollution.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
+                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Energy Saver Squad */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-blue-100 to-blue-300
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-blue-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/fridg.png" className="w-36 h-36 animate-wiggle" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-blue-900 font-poppins">
+                Energy Saver Squad
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Save electricity, reduce bills, protect the planet.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
+                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Solar Power Group */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-blue-100 to-blue-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-blue-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/solar.png" className="w-36 h-36 animate-pulse-soft" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-blue-900 font-poppins">
+                Solar Power Group
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Promote clean, renewable, sun-powered energy.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
+                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        {/* THIRD COLUMN */}
+        <div className="flex flex-col gap-6">
+
+          {/* Clean City League */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-blue-100 to-blue-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-blue-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/dustbin.png" className="w-36 h-36 animate-wiggle" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-blue-900 font-poppins">
+                Clean City League
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Keep your city clean, tidy and trash-free.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
+                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Water Savers */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-blue-100 to-blue-300
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-blue-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/drop.png" className="w-36 h-36 animate-pulse-soft" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-blue-900 font-poppins">
+                Water Savers
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Conserve water and protect our precious resource.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
+                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Healthy Eating Club */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-orange-100 to-orange-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-orange-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/carrot.png" className="w-36 h-36 animate-float" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-orange-900 font-poppins">
+                Healthy Eating Club
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Eat fresh, stay healthy, and reduce food waste.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-orange-600 text-white rounded-xl
+                font-poppins hover:bg-orange-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        {/* FOURTH COLUMN */}
+        <div className="flex flex-col gap-6">
+
+          {/* Reusable Bag Team */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-yellow-100 to-yellow-200
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-yellow-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/bag.png" className="w-36 h-36 animate-wiggle" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-yellow-900 font-poppins">
+                Reusable Bag Team
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Say NO to plastic. Carry your own bag.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-yellow-600 text-white rounded-xl
+                font-poppins hover:bg-yellow-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Save the Earth Group */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-green-100 to-blue-100
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-green-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/earth3.png" className="w-36 h-36 animate-float" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-green-900 font-poppins">
+                Save the Earth Group
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Protect nature, wildlife, oceans, and forests.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+          </div>
+
+          {/* Clean Fuel Community */}
+          <div className="flex items-center gap-6 p-6 
+            bg-gradient-to-r from-green-100 to-yellow-100
+            rounded-2xl shadow-xl hover:shadow-2xl 
+            hover:scale-[1.02] transition-all duration-300 ease-out
+            border border-green-300">
+            
+            <div className="bg-white p-4 rounded-2xl shadow-md">
+              <img src="/avatars/cng.png" className="w-36 h-36 animate-pulse-soft" />
+            </div>
+
+            <div>
+              <p className="text-3xl font-bold text-green-900 font-poppins">
+                Clean Fuel Community
+              </p>
+              <p className="text-sm text-gray-700 mt-1 font-poppins">
+                Switch to cleaner fuels for a greener future.
+              </p>
+              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
+                Join Group
+              </button>
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+      {/* ----------------------------------------------------------- */}
+{/* ⭐ NEW SECTIONS: Group Challenges + Group Progress + Create Group */}
+{/* ----------------------------------------------------------- */}
+
+{/* GROUP CHALLENGES */}
+<div className="px-6 mt-12">
+  <h2 className="text-3xl font-bold text-white font-poppins mb-4">
+    🌟 Group Challenges
+  </h2>
+
+  <div className="grid grid-cols-2 gap-6">
+
+    {/* Challenge 1 */}
+    <div className="flex items-center gap-4 p-5 bg-white rounded-2xl shadow-md border border-green-200">
+      <span className="text-5xl">🚯</span>
+      <p className="text-xl font-semibold text-green-900 font-poppins">
+        Plastic-Free Week
+      </p>
+    </div>
+
+    {/* Challenge 2 */}
+    <div className="flex items-center gap-4 p-5 bg-white rounded-2xl shadow-md border border-green-200">
+      <span className="text-5xl">🚲</span>
+      <p className="text-xl font-semibold text-green-900 font-poppins">
+        Bike to College Day
+      </p>
+    </div>
+
+  </div>
+</div>
+
+{/* GROUP PROGRESS */}
+<div className="px-6 mt-12">
+  <h2 className="text-3xl font-bold text-white font-poppins mb-4">
+    📈 Group Progress
+  </h2>
+
+  <div className="w-full bg-green-200 h-6 rounded-full overflow-hidden">
+    <div className="h-full bg-green-700 w-[45%] rounded-full"></div>
+  </div>
+</div>
+
+{/* CREATE GROUP BUTTON */}
+<div className="px-6 mt-12 flex justify-center pb-12">
+  <button className="
+    bg-red-700
+    px-12 py-4 rounded-3xl 
+    border border-green-900 
+    text-white font-bold text-2xl font-poppins
+    shadow-md hover:shadow-xl hover:bg-green-600 hover:text-white
+    transition-all duration-200
+  ">
+    ➕ Create a Group
+  </button>
+</div>
+
+    </div>
+  );
+}

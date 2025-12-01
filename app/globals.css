@@ -24,3 +24,51 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ---------------------------------------------------
+   ANIMATIONS (Use these classes in your components)
+---------------------------------------------------- */
+
+/* Wiggle Animation */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+/* Float Animation (Up–Down Motion) */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Wave Animation (for hands or characters) */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  60% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  animation: wave 1.3s ease-in-out infinite;
+  transform-origin: bottom center; /* important */
+}
+
+/* Pulse Animation (Grow–Shrink) */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+}
+
+.animate-pulse-soft {
+  animation: pulse 1.8s ease-in-out infinite;
+}
