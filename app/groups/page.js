@@ -25,7 +25,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/recycle.png" className="w-36 h-36 animate-wiggle" />
+              <img src="https://cdn4.vectorstock.com/i/1000x1000/92/13/recycle-truck-on-half-earth-icon-day-related-vector-37049213.jpg" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -50,7 +50,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/tree.png" className="w-36 h-36 animate-float" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1N_ph72BxKyESn7KLW3dvSc-Q-X621DmQKw&s" className="w-36 h-36 animate-float" />
             </div>
 
             <div>
@@ -75,7 +75,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/foot.png" className="w-36 h-36 animate-wiggle" />
+              <img src="https://thumbs.dreamstime.com/b/cartoon-foot-creative-design-46169404.jpgg" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -105,7 +105,7 @@ export default function GroupsPage() {
             border border-blue-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/bus.png" className="w-36 h-36 animate-float" />
+              <img src="https://www.shutterstock.com/image-vector/bus-cartoon-icon-illustration-school-600nw-2506662009.jpg" className="w-36 h-36 animate-float" />
             </div>
 
             <div>
@@ -130,7 +130,7 @@ export default function GroupsPage() {
             border border-blue-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/fridg.png" className="w-36 h-36 animate-wiggle" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZkE_f092IXu6nRSGYmILJCo6lC_aZ7Eivg&s" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -155,7 +155,7 @@ export default function GroupsPage() {
             border border-blue-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/solar.png" className="w-36 h-36 animate-pulse-soft" />
+              <img src="https://media.istockphoto.com/id/1382325937/vector/renewable-solar-photovoltaic-power-station-plant.jpg?s=612x612&w=0&k=20&c=_jo81e9CK-hV7MiIaWXTd2UUaCXyiLp7h8EwxdP5uH8=" className="w-36 h-36 animate-pulse-soft" />
             </div>
 
             <div>
@@ -185,7 +185,7 @@ export default function GroupsPage() {
             border border-blue-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/dustbin.png" className="w-36 h-36 animate-wiggle" />
+              <img src="https://media.istockphoto.com/id/1828200520/vector/funny-trash-can-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=v7ixBcu6u0I2RM41L0MNrxqoN3NlEr651BZadvXnD44=" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -210,7 +210,7 @@ export default function GroupsPage() {
             border border-blue-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/drop.png" className="w-36 h-36 animate-pulse-soft" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsBUFGMPA0oH9uJJYsoLAvnfXxEx4DPPvDqA&s" className="w-36 h-36 animate-pulse-soft" />
             </div>
 
             <div>
@@ -235,7 +235,7 @@ export default function GroupsPage() {
             border border-orange-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/carrot.png" className="w-36 h-36 animate-float" />
+              <img src="https://cdn.vectorstock.com/i/1000v/64/93/carrots-vegetable-cartoon-colored-clipart-vector-46536493.jpg" className="w-36 h-36 animate-float" />
             </div>
 
             <div>
@@ -265,7 +265,7 @@ export default function GroupsPage() {
             border border-yellow-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/bag.png" className="w-36 h-36 animate-wiggle" />
+              <img src="https://i.pinimg.com/736x/dd/55/3f/dd553f01c60c15b6e1ac3678c7414c38.jpg" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -290,7 +290,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/earth3.png" className="w-36 h-36 animate-float" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIPAKJQDJmRcAATs0-DDuEZta-k2U6_gNxQ&s" className="w-36 h-36 animate-float" />
             </div>
 
             <div>
@@ -315,7 +315,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="/avatars/cng.png" className="w-36 h-36 animate-pulse-soft" />
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/008/808/995/small/cng-car-icon-in-logotype-vector.jpg" className="w-36 h-36 animate-pulse-soft" />
             </div>
 
             <div>
