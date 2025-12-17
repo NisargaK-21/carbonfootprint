@@ -1,6 +1,10 @@
+
 "use client";
+import { useRouter } from "next/navigation";
 
 export default function GroupsPage() {
+  const router = useRouter();
+
   return (
     <div>
 
@@ -33,10 +37,15 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Reduce waste, recycle smarter, and live cleaner.
               </p>
-              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
-                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/zero-waste-team")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
+
             </div>
           </div>
 
@@ -58,10 +67,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Grow plants, green your surroundings, spread nature.
               </p>
-              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
-                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/plant-squad")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -73,7 +86,7 @@ export default function GroupsPage() {
             border border-green-300">
             
             <div className="bg-white p-4 rounded-2xl shadow-md">
-              <img src="https://thumbs.dreamstime.com/b/cartoon-foot-creative-design-46169404.jpgg" className="w-36 h-36 animate-wiggle" />
+              <img src="https://m.media-amazon.com/images/I/51nmFv3plfL._AC_UF894,1000_QL80_.jpg" className="w-36 h-36 animate-wiggle" />
             </div>
 
             <div>
@@ -83,10 +96,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Take steps for your health and a cleaner planet.
               </p>
-              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
-                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/walk-more-club")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -113,10 +130,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Choose buses and metros to reduce pollution.
               </p>
-              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
-                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/public-transport-team")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -138,10 +159,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Save electricity, reduce bills, protect the planet.
               </p>
-              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
-                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+             <button
+  onClick={() => router.push("/groups/energy-saver-squad")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -163,10 +188,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Promote clean, renewable, sun-powered energy.
               </p>
-              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
-                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/solar-power")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -192,10 +221,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Keep your city clean, tidy and trash-free.
               </p>
-              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
-                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/clean-city")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -216,10 +249,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Conserve water and protect our precious resource.
               </p>
-              <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-xl
-                font-poppins hover:bg-blue-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/water-saver")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -240,10 +277,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Eat fresh, stay healthy, and reduce food waste.
               </p>
-              <button className="mt-4 px-6 py-2 bg-orange-600 text-white rounded-xl
-                font-poppins hover:bg-orange-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+             <button
+  onClick={() => router.push("/groups/healthy-eating")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -268,10 +309,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Say NO to plastic. Carry your own bag.
               </p>
-              <button className="mt-4 px-6 py-2 bg-yellow-600 text-white rounded-xl
-                font-poppins hover:bg-yellow-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/resuable")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -292,10 +337,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Protect nature, wildlife, oceans, and forests.
               </p>
-              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
-                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/save-earth")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
           </div>
 
@@ -316,10 +365,14 @@ export default function GroupsPage() {
               <p className="text-sm text-gray-700 mt-1 font-poppins">
                 Switch to cleaner fuels for a greener future.
               </p>
-              <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
-                font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200">
-                Join Group
-              </button>
+              <button
+  onClick={() => router.push("/groups/cleaning-comm")}
+  className="mt-4 px-6 py-2 bg-green-600 text-white rounded-xl
+  font-poppins hover:bg-green-700 hover:shadow-xl transition-all duration-200"
+>
+  Join Group
+</button>
+
             </div>
             
           </div>
