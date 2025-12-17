@@ -27,7 +27,7 @@ export default function Header() {
               {[
                 ["Home", "/"],
                 ["Tracker", "/Tracker"],
-                ["Projects", "/project"],
+                ["Projects", "/Projects"],
                 ["Groups", "/groups"],
                 ["Rewards", "/rewards"],
               ].map(([label, path]) => (
