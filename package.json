@@ -88,6 +88,7 @@
     "file-entry-cache": "^8.0.0",
     "fill-range": "^7.1.1",
     "find-up": "^5.0.0",
+    "firebase": "^12.7.0",
     "flat-cache": "^4.0.1",
     "flatted": "^3.3.3",
     "for-each": "^0.3.5",
@@ -274,7 +275,11 @@
     "zod-validation-error": "^4.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
