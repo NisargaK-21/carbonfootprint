@@ -4,20 +4,18 @@ export default function GroupsPage() {
   return (
     <div>
 
-      {/* TOP HEADING */}
       <div className="bg-[#2D6A4F] w-full pt-6 pb-6 flex justify-center items-start">
         <h1 className="text-4xl font-bold text-white text-center font-poppins">
           🌿🍃 Join Eco Communities
         </h1>
       </div>
 
-      {/* GRID */}
       <div className="grid grid-cols-2 gap-6 p-5">
 
-        {/* LEFT COLUMN */}
+
         <div className="flex flex-col gap-6">
 
-          {/* Zero Waste Team */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-green-100 to-green-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -42,7 +40,7 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Plant Squad */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-green-100 to-green-300
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -67,7 +65,7 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Walk More Club */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-green-100 to-green-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -94,10 +92,10 @@ export default function GroupsPage() {
 
         </div>
 
-        {/* SECOND COLUMN */}
+
         <div className="flex flex-col gap-6">
 
-          {/* Public Transport Heroes */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-blue-100 to-blue-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -122,7 +120,7 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Energy Saver Squad */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-blue-100 to-blue-300
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -147,7 +145,7 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Solar Power Group */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-blue-100 to-blue-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -174,10 +172,9 @@ export default function GroupsPage() {
 
         </div>
 
-        {/* THIRD COLUMN */}
         <div className="flex flex-col gap-6">
 
-          {/* Clean City League */}
+
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-blue-100 to-blue-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -202,7 +199,6 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Water Savers */}
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-blue-100 to-blue-300
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -227,7 +223,6 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Healthy Eating Club */}
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-orange-100 to-orange-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -254,10 +249,8 @@ export default function GroupsPage() {
 
         </div>
 
-        {/* FOURTH COLUMN */}
         <div className="flex flex-col gap-6">
 
-          {/* Reusable Bag Team */}
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-yellow-100 to-yellow-200
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -282,7 +275,6 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Save the Earth Group */}
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-green-100 to-blue-100
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -307,7 +299,6 @@ export default function GroupsPage() {
             </div>
           </div>
 
-          {/* Clean Fuel Community */}
           <div className="flex items-center gap-6 p-6 
             bg-gradient-to-r from-green-100 to-yellow-100
             rounded-2xl shadow-xl hover:shadow-2xl 
@@ -336,11 +327,7 @@ export default function GroupsPage() {
         </div>
 
       </div>
-      {/* ----------------------------------------------------------- */}
-{/* ⭐ NEW SECTIONS: Group Challenges + Group Progress + Create Group */}
-{/* ----------------------------------------------------------- */}
 
-{/* GROUP CHALLENGES */}
 <div className="px-6 mt-12">
   <h2 className="text-3xl font-bold text-white font-poppins mb-4">
     🌟 Group Challenges
@@ -348,7 +335,6 @@ export default function GroupsPage() {
 
   <div className="grid grid-cols-2 gap-6">
 
-    {/* Challenge 1 */}
     <div className="flex items-center gap-4 p-5 bg-white rounded-2xl shadow-md border border-green-200">
       <span className="text-5xl">🚯</span>
       <p className="text-xl font-semibold text-green-900 font-poppins">
@@ -356,7 +342,6 @@ export default function GroupsPage() {
       </p>
     </div>
 
-    {/* Challenge 2 */}
     <div className="flex items-center gap-4 p-5 bg-white rounded-2xl shadow-md border border-green-200">
       <span className="text-5xl">🚲</span>
       <p className="text-xl font-semibold text-green-900 font-poppins">
@@ -367,7 +352,7 @@ export default function GroupsPage() {
   </div>
 </div>
 
-{/* GROUP PROGRESS */}
+
 <div className="px-6 mt-12">
   <h2 className="text-3xl font-bold text-white font-poppins mb-4">
     📈 Group Progress
@@ -378,7 +363,7 @@ export default function GroupsPage() {
   </div>
 </div>
 
-{/* CREATE GROUP BUTTON */}
+
 <div className="px-6 mt-12 flex justify-center pb-12">
   <button className="
     bg-red-700

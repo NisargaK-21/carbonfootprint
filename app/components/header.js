@@ -34,10 +34,11 @@ export default function Header() {
         </div>
         
         <nav className="flex flex-wrap hidden lg:flex gap-6 justify-center text-lg font-medium">
-          <Link href="/" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Home</Link>
+          <Link href="/" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Home</Link> 
+          <Link href="/Tips" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Tips</Link>
           <Link href="/Tracker" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Tracker</Link>
           <Link href="/Project" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Projects</Link>
-          <Link href="/Group" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Group</Link>
+          <Link href="/groups" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Group</Link>
           <Link href="/Rewards" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Rewards</Link>
           <Link href="/login" className="text-white hover:text-[#2D6A4F] hover:underline transition-all">Login</Link>
         </nav>

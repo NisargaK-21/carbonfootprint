@@ -1,4 +1,5 @@
-#include "crow_all.h"
+#include "crow/app.h"
+#include "crow/json.h"
 #include <vector>
 #include <string>
 
@@ -18,34 +19,48 @@ vector<string> generateTips(double total) {
         tips.push_back("Use bicycle for short distances.");
         tips.push_back("Reduce overall power consumption.");
     }
-
     return tips;
 }
 
 int main() {
-    crow::SimpleApp app;   // 🔥 Old compiler-compatible version
+    crow::SimpleApp app;
+    
+CROW_ROUTE(app, "/calc").methods("POST"_method)
+([](const crow::request& req) {
+    crow::response res;
+    res.add_header("Access-Control-Allow-Origin", "*");
+    res.add_header("Access-Control-Allow-Methods", "POST, OPTIONS");
+    res.add_header("Access-Control-Allow-Headers", "Content-Type");
+    res.add_header("Content-Type", "application/json"); // 🔥 ADD THIS
 
-    CROW_ROUTE(app, "/calc").methods("POST"_method)
-    ([](const crow::request& req) {
-        auto data = crow::json::load(req.body);
-        if (!data)
-            return crow::json::wvalue({{"error", "Invalid JSON"}});
+    auto data = crow::json::load(req.body);
+    if (!data) {
+        res.code = 400;
+        res.body = R"({"error":"Invalid JSON"})";
+        return res;
+    }
 
-        double electricity = data["electricity"].d();
-        double travel = data["travel"].d();
-        double waste = data["waste"].d();
+    double electricity = data["electricity"].d();
+    double travel = data["travel"].d();
+    double waste = data["waste"].d();
 
-        double total = (electricity * 0.5) + (travel * 0.21) + (waste * 0.8);
-        auto tips = generateTips(total);
+    double total =
+        (electricity * 0.5) +
+        (travel * 0.21) +
+        (waste * 0.8);
 
-        crow::json::wvalue result;
-        result["total"] = total;
+    auto tips = generateTips(total);
 
-        for (int i = 0; i < tips.size(); i++)
-            result["tips"][i] = tips[i];
+    crow::json::wvalue result;
+    result["total"] = total;
+    for (size_t i = 0; i < tips.size(); i++) {
+        result["tips"][i] = tips[i];
+    }
 
-        return result;
-    });
+    res.code = 200;
+    res.body = result.dump();
+    return res;
+});
 
-    app.port(8080).run();
+    app.port(8080).multithreaded().run();
 }
